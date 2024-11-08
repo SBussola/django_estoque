@@ -1,0 +1,19 @@
+{
+  "name": "django_estoque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack --config webpack.config.js",
+    "watch": "npm run start -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.96.1",
+    "webpack-bundle-tracker": "^3.1.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
